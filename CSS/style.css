@@ -123,3 +123,36 @@ footer{
     float: right;
     width: 45%;
 }
+
+/* Screen size management */
+@media screen and (max-width: 700px) {
+    .right-Div .left{
+        float: none;
+
+    }
+    
+    .right-Div .right{
+        float: none;
+
+    }
+    .prorile-Image{
+        width: 100px;
+        height: 108px;
+        border: 2px solid rgb(0, 0, 53);
+        border-radius: 50%;
+        float: none;
+        text-align: center;
+    }
+    .hedder-bio{
+        float: none;
+        padding: 0px;
+    }
+    .contacts{
+        float: none;
+        padding: 0px;
+    }
+
+    header{
+        text-align: center;
+    }
+}

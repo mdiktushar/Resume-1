@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Jomolhari', serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: rgb(208, 211, 228);
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+
+}
+
+.prorile-Image{
+    width: 100px;
+    height: 108px;
+    border: 2px solid rgb(0, 0, 53);
+    border-radius: 50%;
+    float: left;
+}
+
+.hedder-bio{
+    float: left;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: rgba(0, 10, 20, 0.726);
+}
+
+.contacts{
+    float: right;
+    padding: 30px;
+}
+
+.contacts a{
+    text-decoration: none;
+    color: rgb(1, 61, 102);
+    font-weight: bolder;
+}
+
+.contacts a:hover{
+    text-decoration: underline;
+    color: rgb(139, 0, 0);
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid rgb(0, 0, 39) 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}

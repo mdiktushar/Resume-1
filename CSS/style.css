@@ -6,6 +6,7 @@
 body{
     background-color: #eee;
     font-family: 'Jomolhari', serif;
+    font-size: 14px;
 }
 
 .container{
@@ -43,7 +44,7 @@ h1, h2, h3, h4, h5, h6{
 
 .contacts a{
     text-decoration: none;
-    color: rgb(1, 61, 102);
+    color: rgb(31, 0, 82);
     font-weight: bolder;
 }
 
@@ -61,4 +62,53 @@ hr{
     width: 100%;
     margin: 20px auto;
     border-bottom: none;
+}
+
+/* Personal Section */
+
+.Personal-Information{
+
+}
+
+.content{
+    margin-bottom: 30px;
+}
+
+.left-Div{
+    width: 30%;
+    float: left;
+}
+
+.right-Div{
+    width: 70%;
+    float: left;
+}
+
+.common-hr{
+    border: solid rgb(0, 0, 39) 1px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/* Footer */
+footer{
+    background-color: dimgrey;
+    color: wheat;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: none;
+}
+
+.tab{
+    padding-left: 10px;
+}
+
+.icons{
+    font-size: 30px;
+}
+
+
+.dec{
+    color: black;
 }
